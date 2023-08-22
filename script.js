@@ -3,10 +3,25 @@ var iframeGita = document.getElementById("iframeGita");
 var controls = document.querySelector(".controls");
 controls.style.display="none";
 iframeGita.style.display="none";
+var pageNo= document.getElementById("pagenumber").value;
+
+
+
+function random(){
+    var pageNo= document.getElementById("pagenumber").value;
+    var newPageNo = 38+ parseInt(pageNo);
+    alert(newPageNo);
+    var newSrc = "https://heyzine.com/flip-book/829dfa8f37.html#page/" + newPageNo;
+    
+    iframeGita.src = newSrc;
+}
+
+
 function nepali(){
     iframeGita.style.display="block";
     controls.style.display="flex";
 }
+
 
 
 function goToChapter() {
