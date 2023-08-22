@@ -10,7 +10,6 @@ var pageNo= document.getElementById("pagenumber").value;
 function random(){
     var pageNo= document.getElementById("pagenumber").value;
     var newPageNo = 38+ parseInt(pageNo);
-    alert(newPageNo);
     var newSrc = "https://heyzine.com/flip-book/829dfa8f37.html#page/" + newPageNo;
     
     iframeGita.src = newSrc;
