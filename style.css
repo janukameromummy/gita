@@ -47,6 +47,16 @@ iframe{
     height: 100%;
     width: 100%;
 }
+.download{
+    width: 100%;
+    text-align: center;
+    height: 5vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
 @media(max-width: 720px) {
     .footer{
         font-size: 10px;
